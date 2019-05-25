@@ -18,7 +18,7 @@ class AutoConfiguration {
         const mySqlDataSourceComponent = new Component("datasource", "leap-data-mysql/MySqlDatasource", MySqlDatasourceFactory, []);
         mySqlDataSourceComponent.setInstance(mysqlDatasource);
 
-        return [mySqlDataSourceComponent];
+        return mySqlDataSourceComponent;
     }
 }
 
