@@ -1,5 +1,5 @@
 const Component = require("leap-core").Component;
-const MySqlDatasourceFactory = require("leap-data-mysql").MysqlDatasourceFactory;
+const MySqlDatasourceFactory = require("leap-data-mysql").MySqlDatasourceFactory;
 
 class AutoConfiguration {
     
