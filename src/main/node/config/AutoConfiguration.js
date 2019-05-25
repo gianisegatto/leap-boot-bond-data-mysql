@@ -9,7 +9,7 @@ class AutoConfiguration {
         const user = environment.leap.datasource.mysql.user;
         const pass = environment.leap.datasource.mysql.pass;
         const database = environment.leap.datasource.mysql.database;
-        const connectionLimit = environment.leap.datasource.mysql.pool.size;
+        const connectionLimit = environment.leap.datasource.mysql.poolsize;
 
         const mysqlDatasourceFactory = new MySqlDatasourceFactory(host, user, pass, database, connectionLimit);
 
