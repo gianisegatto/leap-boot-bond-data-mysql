@@ -3,7 +3,7 @@ const MySqlDatasourceFactory = require("leap-data-mysql").MySqlDatasourceFactory
 
 class AutoConfiguration {
     
-    static load(environment) {
+    static preLoad(environment) {
 
         const host = environment.leap.datasource.mysql.host;
         const user = environment.leap.datasource.mysql.user;
@@ -19,6 +19,9 @@ class AutoConfiguration {
         mySqlDataSourceComponent.setInstance(mysqlDatasource);
 
         return mySqlDataSourceComponent;
+    }
+
+    static postLoad(components) {
     }
 }
 
