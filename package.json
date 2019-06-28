@@ -1,8 +1,8 @@
 {
-  "name": "leap-boot-starter-data-mysql",
+  "name": "leap-boot-bond-data-mysql",
   "version": "0.0.1",
   "description": "I'm here to help you dealing with mysql using a promise way",
-  "homepage": "https://github.com/gianisegatto/leap-boot-starter-data-mysql",
+  "homepage": "https://github.com/gianisegatto/leap-boot-bond-data-mysql",
   "license": "UNLICENSED",
   "files": [
     "src/",
@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gianisegatto/leap-boot-starter-data-mysql"
+    "url": "https://github.com/gianisegatto/leap-boot-bond-data-mysql"
   },
   "dependencies": {
     "leap-core": "github:gianisegatto/leap-core#master",
