@@ -5,7 +5,7 @@ class AutoConfiguration {
     
     static preLoad(environment) {
 
-        const datasourceConfig = environment.leap.datasource;
+        const datasourceConfig = environment.leap.datasource.mysql;
         
         const mysqlDatasourceFactory = new MySqlDatasourceFactory(datasourceConfig);
 
